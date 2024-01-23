@@ -7,6 +7,6 @@ use Tualo\Office\ExtJSCompiler\CompilerHelper;
 
 class Compiler implements ICompiler {
     public static function getFiles(){
-        return CompilerHelper::getFiles(__DIR__,'report',10003);
+        return CompilerHelper::getFiles(__DIR__,'fsm',10003);
     }
 }

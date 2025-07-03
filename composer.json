@@ -1,21 +1,23 @@
 {
-    "name": "tualo/fsm",
-    "description": "tualo - fsm",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Thomas Hoffmann",
-            "email": "thomas.hoffmann@tualo.de"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Tualo\\Office\\FSM\\": "src/"
-        },
-        "files": ["src/functions.php"]
-    },
-    "minimum-stability": "dev",
-    "require": {
+  "name": "tualo/fsm",
+  "description": "tualo - fsm",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Hoffmann",
+      "email": "thomas.hoffmann@tualo.de"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tualo\\Office\\FSM\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "require": {},
+  "version": "1.0.1"
 }
